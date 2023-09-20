@@ -17,3 +17,92 @@ body {
 .calculator {
     height: auto;
 }
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+#plus {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#minus {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#divide {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#multiply {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#allClear {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#num0 {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#num1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#num2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#num3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#num4 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#num5 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#num6 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#num7 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#num8 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#num9 {
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#equal {
+    grid-column: 4;
+    grid-row: 3 / span 2;
+}
